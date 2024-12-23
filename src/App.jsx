@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      
         <Routes>
           {/* Página principal é o login */}
           <Route path="/" element={<LoginComponent />} />
